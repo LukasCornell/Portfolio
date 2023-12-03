@@ -1,0 +1,113 @@
+header{
+    background-image: linear-gradient(to right,rgb(255, 0, 76), rgb(241, 146, 64), rgb(242, 246, 114));
+    
+}
+
+
+
+.main-grid{
+    display:grid;
+    justify-content: space-around;
+    grid-template-columns: 50%;
+}
+
+main{
+   display: flex;
+    justify-content: space-around;
+    align-items:normal;
+    
+}
+
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+
+
+.list{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.item-text{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    background-color: lightgray;
+    width: 300%;
+    border-radius: 10px;
+}
+
+aside {
+
+    position: sticky;
+    top: 20%;
+    height: 100%;
+    width: 10%;
+
+    background-color:lightgray;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    filter: drop-shadow(0rem 0rem 0.3rem rgb(223, 228, 229));
+}
+
+.side-list{
+    list-style: none;
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+.aside a:hover{
+     color: rgb(255, 0, 76);
+}
+
+.item-link{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.item-link:hover{
+    background-color: aqua;
+}
+
+.topheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.side-menu-text:hover{
+    background-color: aqua;
+}
+
+
+
+.title{
+    padding: 2vh;
+    font-weight: 300;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    font-stretch: ultra-condensed;
+}
+
+body{
+    margin:0;
+
+}
+
+.side-menu{
+    background-color: lightgray;
+    width:30%;
+}

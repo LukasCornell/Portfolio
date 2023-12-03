@@ -1,0 +1,28 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+  h1 {
+    color: rgb(255, 0, 0);
+}
+h2 {
+  color: rgb(255, 153, 0);
+}
+h3 {
+  color: rgb(251, 255, 0);
+}
+h4 {
+  color: rgb(4, 205, 41);
+}
+h5 {
+  color: rgb(55, 0, 254);
+}
+h6 {
+  color: rgb(222, 55, 255);
+}
+
+body {
+  color: blueviolet;
+}
+
+
